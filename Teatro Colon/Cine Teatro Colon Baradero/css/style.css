@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+:root{
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    justify-content: center;
+}
+    
+body {
+    margin: 0;
+   
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(78, 4, 4);
+    border-radius: 5rem;
+}
+
+.calendar{
+    color: #fff;
+}
+.calendar:hover {
+    color: #713112;
+}
+
+
+button.btn{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+header{
+    background: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: black;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+header .logo img{
+    height: 6rem;
+}
+
+header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+header .navbar a:hover{
+    color: black;
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.8rem;
+    margin-left: 1.4rem;
+}
+
+header .icons a{
+    color: var(--main-color);
+}
+header .icons div:hover{
+    color: #713112;
+}
+#menu-btn{
+    display: none;
+}
+
+
+
+
+
+/*Programacion del Teatro y Cine*/
+
+.titular{
+    margin-top: 40px;
+}
+
+.h1{
+   font-size: 60px;
+   margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:991px){
+    
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width:991px){
+    
+    #menu-btn{
+        display: inline;
+    }
+
+
+
+    .header .navbar.active{
+        position: right;
+    }
+    
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin: 1.5rem;
+        padding: 5rem;
+        font-size: 2rem;
+    }
+
+    
+}    
